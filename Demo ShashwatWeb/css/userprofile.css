@@ -1,0 +1,187 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#userp{
+    height: 30px;
+}
+#userinfo
+{
+    width: 100%;
+    height: 1000px;
+    background-color:#EEFEFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#settings
+{
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#settings button
+{
+    margin-right: 40px;
+}
+#settings button a
+{
+    text-decoration: none;
+    margin-right: 40px;
+    padding-left: 20px;
+    color: #EEFEFA;
+}
+.dropdown-menu li button
+{
+    width: 80px;margin-top: 5px;
+    height: 35px;
+    background-color: #4081ec;
+    border-radius: 20px;
+    color: #EEFEFA;
+    border-style: none;
+}   
+#container
+{
+    height: 900px;
+    width: 50%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#userprofile{
+    width: 45%;
+    height: 250px;
+}
+#details{
+    width: 100%;
+    height: 400px;
+}
+#userprofilediv #userimg
+{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background: linear-gradient(yellow,blue,pink,red,purple,orange);
+    margin-top: 50px;
+    padding: 2px;
+    transition: 0.4s;
+}
+#userimg:hover
+{
+    opacity: 1;
+    transform: scale(1.1);
+}
+#duser
+{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(175, 175, 219);
+    margin-top: 20px;
+    padding: 10px;
+}
+#editicon
+{
+    margin-left: 20px;
+}
+#editicon:hover
+{
+    transform: scale(1.2);
+}
+#details
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#myoption
+{
+    width: 80%;
+    height: 35px;
+    margin-left: 12.5%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#text1
+{
+    height: 35px;
+    width: 60%;
+    background-color: #E5E0FF;
+    border-radius: 30px;
+    padding: 8px;
+    padding-left: 18px;
+    padding-left: 18px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#myoption button
+{
+        background-color: #C2FBD7;
+    border-radius: 50px;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    color: #008000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    height: 50px;
+    padding: 0 25px;
+    transition: all 200ms;
+    height: 35px;
+    width: 100px;
+}
+#myoption button:hover{
+    
+background-color: #AFE6C3;
+transform: scale(1.05);
+}
+#myoption button a
+{
+    text-decoration: none;
+    color: #008000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+#back
+{
+    margin-top: 30px;
+    height: 35px;
+    width: 70px;
+    background-color: #C2FBD7;
+    border-radius: 50px;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    height: 50px;
+    padding: 0 25px;
+    transition: all 200ms;
+    height: 35px;
+    width: 100px;
+
+}
+#back a
+{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#back:hover{
+    
+    background-color: #4081ec;
+    transform: scale(1.05);
+    }
